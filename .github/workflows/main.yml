@@ -16,6 +16,6 @@ jobs:
       - uses: ko-build/setup-ko@v0.7
       - run: ko build
         env:
-          KO_DOCKER_REPO: ghcr.io/rifkyazizf/caddy-on-demand-tls
+          KO_DOCKER_REPO: ghcr.io/rifkyazizf
           KO_DOCKER_TAG: latest
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
