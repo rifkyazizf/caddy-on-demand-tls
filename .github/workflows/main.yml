@@ -18,5 +18,4 @@ jobs:
         env:
           KO_DOCKER_REPO: ghcr.io/rifkyazizf/caddy-on-demand-tls
           KO_DOCKER_TAG: latest
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
