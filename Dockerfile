@@ -11,4 +11,5 @@ WORKDIR /app
 COPY --from=builder /app/caddy-on-demand-tls /app/caddy-on-demand-tls
 
 EXPOSE 5555
+
 ENTRYPOINT ["/app/caddy-on-demand-tls"]
